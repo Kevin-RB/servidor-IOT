@@ -14,6 +14,7 @@ app.use(require('./rutas/datosHoy'))
 app.use(require('./rutas/datosActuales'))
 app.use(require('./rutas/datosSemana'))
 app.use(require('./rutas/datosRango'))
+app.use(require('./rutas/datosMes'))
 
 //Start server
 app.listen(app.get('port'), () => {
